@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-annotation-pod
+  annotations:
+    owner: erstalin@gmail.com
+    git-commit: abcdef
+spec: 
+  containers:
+  - name: nginx
+    image: nginx
